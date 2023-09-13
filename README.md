@@ -1,8 +1,8 @@
 # PyTestSolveMe
 --------------------------------------------------------------------------------
->python -m venv venv
->venv\Scripts\activate
-(venv) >python -V
+- >python -m venv venv
+- >venv\Scripts\activate
+- (venv) >python -V
 --------------------------------------------------------------------------------
 https://www.youtube.com/playlist?list=PLB2iiSfKWtvykq9s0plSVI_Du60i0iphU
 - 1 Пишем свои первые автотесты
@@ -20,6 +20,13 @@ https://www.youtube.com/playlist?list=PLB2iiSfKWtvykq9s0plSVI_Du60i0iphU
     `pytest -s -v test_name.py` выполнит только методы указанного файла теста
   - 
 - 2 Усложняем задачу, добавив первый реквест
+  - (venv) >pip install requests
+  - (venv) >pip freeze > requirements.txt
+  - My JSON Server - Fake online REST server for teams https://my-json-server.typicode.com/
+  - https://my-json-server.typicode.com/typicode/demo/posts
+  - (venv) >pytest -s -v tests\somesing_test.py
+     https://youtu.be/PmHuP-qlbWQ?si=vCAHPbR29ZPPduCe&t=419 создадим папочку src и жмет New > Python Packages
+  - https://youtu.be/PmHuP-qlbWQ?si=BXXPQpFaYDTSPb98&t=430 создадим еще одну директорию enums и жмет New > Python Packages
 - 3.1 Улучшаем валидацию объектов и работаем с jsonschema
 - 3.2 Используем pydantic для валидации данных в тестах
 - 3.3 Пишем тесты близкие к боевым условиям и бустим AssertError log
