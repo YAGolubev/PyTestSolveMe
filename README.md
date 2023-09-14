@@ -27,7 +27,12 @@ https://www.youtube.com/playlist?list=PLB2iiSfKWtvykq9s0plSVI_Du60i0iphU
   - (venv) >pytest -s -v tests\somesing_test.py
      https://youtu.be/PmHuP-qlbWQ?si=vCAHPbR29ZPPduCe&t=419 создадим папочку src и жмет New > Python Packages
   - https://youtu.be/PmHuP-qlbWQ?si=BXXPQpFaYDTSPb98&t=430 создадим еще одну директорию enums и жмет New > Python Packages
+- 
 - 3.1 Улучшаем валидацию объектов и работаем с jsonschema
+  - (venv) >pip install jsonschema
+  - (venv) >pip freeze > requirements.txt
+  - Мне кажется плохая практика возвращать self. Можно отдельно сделать response.validate(POST_SCHEMA)
+
 - 3.2 Используем pydantic для валидации данных в тестах
 - 3.3 Пишем тесты близкие к боевым условиям и бустим AssertError log
 - 4.1 Fixtures, conftest. Зачем они и как с ними работать.
