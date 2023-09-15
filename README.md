@@ -6,7 +6,6 @@
 --------------------------------------------------------------------------------
 https://www.youtube.com/playlist?list=PLB2iiSfKWtvykq9s0plSVI_Du60i0iphU
 - 1 Пишем свои первые автотесты
-  - стоит ли папку test делать пакетом? https://youtu.be/cBt7DveuuS0?si=creZwCxQb_T9b3j-&t=66 создадим папочку и жмет New > Python Packages
   - в названии каталога, файла и функции должно быть "test" в начале или конце
   - (venv) >python.exe -m pip install --upgrade pip
   - (venv) >pip install pytest
@@ -25,8 +24,6 @@ https://www.youtube.com/playlist?list=PLB2iiSfKWtvykq9s0plSVI_Du60i0iphU
   - My JSON Server - Fake online REST server for teams https://my-json-server.typicode.com/
   - https://my-json-server.typicode.com/typicode/demo/posts
   - (venv) >pytest -s -v tests\somesing_test.py
-     https://youtu.be/PmHuP-qlbWQ?si=vCAHPbR29ZPPduCe&t=419 создадим папочку src и жмет New > Python Packages
-  - https://youtu.be/PmHuP-qlbWQ?si=BXXPQpFaYDTSPb98&t=430 создадим еще одну директорию enums и жмет New > Python Packages
 - 
 - 3.1 Улучшаем валидацию объектов и работаем с jsonschema
   - (venv) >pip install jsonschema
@@ -34,6 +31,9 @@ https://www.youtube.com/playlist?list=PLB2iiSfKWtvykq9s0plSVI_Du60i0iphU
   - Мне кажется плохая практика возвращать self. Можно отдельно сделать response.validate(POST_SCHEMA)
 
 - 3.2 Используем pydantic для валидации данных в тестах
+  - (venv) >pip install pydantic==1.10.12
+  - (venv) >pip freeze > requirements.txt
+  - 
 - 3.3 Пишем тесты близкие к боевым условиям и бустим AssertError log
 - 4.1 Fixtures, conftest. Зачем они и как с ними работать.
 - 4.2 Fixtures и conftest интересные фичи которые стоит знать
