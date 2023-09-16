@@ -1,4 +1,5 @@
-from pydantic import BaseModel, validator, Field
+from pydantic import BaseModel, Field, validator
+
 
 class Post (BaseModel):
     # id: int

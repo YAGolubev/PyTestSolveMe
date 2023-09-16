@@ -35,6 +35,7 @@ https://www.youtube.com/playlist?list=PLB2iiSfKWtvykq9s0plSVI_Du60i0iphU
   - (venv) >pip freeze > requirements.txt
   - 
 - 3.3 Пишем тесты близкие к боевым условиям и бустим AssertError log
+  - 
 - 4.1 Fixtures, conftest. Зачем они и как с ними работать.
 - 4.2 Fixtures и conftest интересные фичи которые стоит знать
 - 5 Декораторы для тестов. Parametrize, skip, duration, custom params
