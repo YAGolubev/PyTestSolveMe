@@ -1,4 +1,6 @@
-from pydantic import BaseModel, Field, validator
+from pydantic import BaseModel, Field
+
+# from pydantic import BaseModel, Field, validator
 
 
 class Post (BaseModel):
