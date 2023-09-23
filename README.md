@@ -42,6 +42,13 @@ https://www.youtube.com/playlist?list=PLB2iiSfKWtvykq9s0plSVI_Du60i0iphU
 - 4.2 Fixtures и conftest интересные фичи которые стоит знать
 - 5 Декораторы для тестов. Parametrize, skip, duration, custom params
 - 6 Создаём красивый allure report для результатов тестов
+  - Загрузка Java для всех операционных систем https://www.java.com/ru/download/manual.jsp
+  - `brew install allure` / `sudo apt-get install allure` / `scoop install allure`
+  - - (venv) >pip install allure-pytest
+  - - (venv) >pip freeze > requirements.txt
+    - (venv) >pytest -s -v tests/ --alluredir=reports  # add this dir to .gitignore
+    - (venv) >allure serve reports
+  - 
 - 7.1 Пишем простенький и элегантный билдер для генерации данных
 - 7.2 Работаем с билдерами и данными на любом уровне вложенности
 - 8 Детальный разбор pydantic и способы работы с ним в автотестах
